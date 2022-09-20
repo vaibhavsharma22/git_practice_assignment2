@@ -1,12 +1,12 @@
 function prime(num){
-let counter=0;
+let factor=0;
 for(let i=0;i<=num;i++){
 if(num%i==0);
-{counter++}
-}if(counter==2){
+{fcator++}
+}if(factor==2){
 return true}
 return false;
 }
-let result=prime(15);
-if(result==true){console.log("Prime")}
+let git=prime(15);
+if(git==true){console.log("Prime")}
 else{console.log("Not Prime")}
